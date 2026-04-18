@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,15 +58,23 @@
             -webkit-backdrop-filter: blur(16px);
             border-bottom: 1px solid rgba(255, 255, 255, 0.5);
         }
+
         .hero-gradient {
-            background: radial-gradient(circle at 15% 50%, #f0f7ff, transparent 50%), 
-                        radial-gradient(circle at 85% 30%, #e0f0fe, transparent 50%);
+            background: radial-gradient(circle at 15% 50%, #f0f7ff, transparent 50%),
+                radial-gradient(circle at 85% 30%, #e0f0fe, transparent 50%);
             background-color: #f8fafc;
         }
-        .animation-delay-2000 { animation-delay: 2s; }
-        .animation-delay-4000 { animation-delay: 4s; }
+
+        .animation-delay-2000 {
+            animation-delay: 2s;
+        }
+
+        .animation-delay-4000 {
+            animation-delay: 4s;
+        }
     </style>
 </head>
+
 <body class="font-sans text-slate-800 antialiased selection:bg-primary-200 selection:text-primary-900 bg-slate-50">
 
     <!-- Navbar -->
@@ -73,17 +82,24 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-white shadow-lg shadow-primary-500/30">
+                    <div
+                        class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-white shadow-lg shadow-primary-500/30">
                         <i class="ph ph-waves text-2xl"></i>
                     </div>
-                    <span class="font-bold text-xl tracking-tight text-slate-900">Fono<span class="text-primary-500">Clínica</span></span>
+                    <span class="font-bold text-xl tracking-tight text-slate-900">Fono<span
+                            class="text-primary-500">Clínica</span></span>
                 </div>
                 <div class="hidden md:flex space-x-8 items-center">
-                    <a href="#inicio" class="text-slate-600 hover:text-primary-500 font-medium transition-colors">Início</a>
-                    <a href="#servicos" class="text-slate-600 hover:text-primary-500 font-medium transition-colors">Serviços</a>
-                    <a href="#sobre" class="text-slate-600 hover:text-primary-500 font-medium transition-colors">Sobre Mim</a>
-                    <a href="#depoimentos" class="text-slate-600 hover:text-primary-500 font-medium transition-colors">Depoimentos</a>
-                    <a href="#contato" class="bg-primary-500 text-white px-7 py-2.5 rounded-full font-semibold shadow-lg shadow-primary-500/30 hover:bg-primary-600 hover:-translate-y-0.5 transition-all duration-300">
+                    <a href="#inicio"
+                        class="text-slate-600 hover:text-primary-500 font-medium transition-colors">Início</a>
+                    <a href="#servicos"
+                        class="text-slate-600 hover:text-primary-500 font-medium transition-colors">Serviços</a>
+                    <a href="#sobre" class="text-slate-600 hover:text-primary-500 font-medium transition-colors">Sobre
+                        Mim</a>
+                    <a href="#depoimentos"
+                        class="text-slate-600 hover:text-primary-500 font-medium transition-colors">Depoimentos</a>
+                    <a href="#contato"
+                        class="bg-primary-500 text-white px-7 py-2.5 rounded-full font-semibold shadow-lg shadow-primary-500/30 hover:bg-primary-600 hover:-translate-y-0.5 transition-all duration-300">
                         Agendar Consulta
                     </a>
                 </div>
@@ -95,47 +111,67 @@
     <section id="inicio" class="relative pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden hero-gradient">
         <div class="absolute inset-0 z-0 pointer-events-none">
             <!-- Decorative animated blobs -->
-            <div class="absolute top-20 left-10 w-96 h-96 bg-primary-200 rounded-full mix-blend-multiply filter blur-[80px] opacity-60 animate-blob"></div>
-            <div class="absolute top-40 right-10 w-96 h-96 bg-sky-200 rounded-full mix-blend-multiply filter blur-[80px] opacity-60 animate-blob animation-delay-2000"></div>
-            <div class="absolute -bottom-8 left-40 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-[80px] opacity-60 animate-blob animation-delay-4000"></div>
+            <div
+                class="absolute top-20 left-10 w-96 h-96 bg-primary-200 rounded-full mix-blend-multiply filter blur-[80px] opacity-60 animate-blob">
+            </div>
+            <div
+                class="absolute top-40 right-10 w-96 h-96 bg-sky-200 rounded-full mix-blend-multiply filter blur-[80px] opacity-60 animate-blob animation-delay-2000">
+            </div>
+            <div
+                class="absolute -bottom-8 left-40 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-[80px] opacity-60 animate-blob animation-delay-4000">
+            </div>
         </div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="flex flex-col lg:flex-row items-center gap-16">
                 <!-- Text Content -->
                 <div class="w-full lg:w-1/2 text-center lg:text-left">
-                    <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white text-primary-600 font-medium text-sm mb-6 border border-primary-100 shadow-sm">
+                    <div
+                        class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white text-primary-600 font-medium text-sm mb-6 border border-primary-100 shadow-sm">
                         <i class="ph-fill ph-sparkle text-primary-500 text-lg"></i>
                         <span>Cuidado especializado para a sua voz e audição</span>
                     </div>
                     <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 leading-[1.1] mb-6">
-                        Comunique-se com <br/> 
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-sky-400">confiança</span> e <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-primary-600">liberdade</span>
+                        Comunique-se com <br />
+                        <span
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-sky-400">confiança</span>
+                        e <span
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-primary-600">tranquilidade</span>
                     </h1>
-                    <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
-                        Transformamos vidas através do cuidado com a fala, linguagem, voz e audição. Bem-estar pleno para todas as idades num ambiente acolhedor e humanizado.
+                    <p
+                        class="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+                        Transformamos vidas através do cuidado com a fala, linguagem, voz e audição. Bem-estar pleno
+                        para todas as idades num ambiente acolhedor e humanizado.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="#contato" class="bg-primary-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary-600 hover:shadow-xl hover:shadow-primary-500/30 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2">
+                        <a href="#contato"
+                            class="bg-primary-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-primary-600 hover:shadow-xl hover:shadow-primary-500/30 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2">
                             Agendar Minha Consulta
                             <i class="ph-bold ph-arrow-right"></i>
                         </a>
                     </div>
                     <!-- Small Trust snippet -->
-                    <div class="mt-10 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500 font-medium">
+                    <div
+                        class="mt-10 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500 font-medium">
                         <div class="flex -space-x-2">
-                            <img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/100?img=1" alt="Paciente">
-                            <img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/100?img=2" alt="Paciente">
-                            <img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/100?img=3" alt="Paciente">
+                            <img class="w-8 h-8 rounded-full border-2 border-white"
+                                src="https://i.pravatar.cc/100?img=1" alt="Paciente">
+                            <img class="w-8 h-8 rounded-full border-2 border-white"
+                                src="https://i.pravatar.cc/100?img=2" alt="Paciente">
+                            <img class="w-8 h-8 rounded-full border-2 border-white"
+                                src="https://i.pravatar.cc/100?img=3" alt="Paciente">
                         </div>
-                        <p>Aprovado por mais de <span class="text-slate-800 font-semibold">1k+ pacientes</span> satisfeitos</p>
+                        <p>Aprovado por mais de <span class="text-slate-800 font-semibold">1k+ pacientes</span>
+                            satisfeitos</p>
                     </div>
                 </div>
 
                 <!-- Hero Image (Premium Design element) -->
                 <div class="w-full lg:w-1/2 relative">
-                    <div class="relative rounded-[2rem] overflow-hidden shadow-2xl border-[6px] border-white transform lg:rotate-2 hover:rotate-0 transition-transform duration-700">
-                        <img src="./assets/hero.png" alt="Sessão de Fonoaudiologia" class="w-full h-[500px] object-cover" />
+                    <div
+                        class="relative rounded-[2rem] overflow-hidden shadow-2xl border-[6px] border-white transform lg:rotate-2 hover:rotate-0 transition-transform duration-700">
+                        <img src="./assets/hero.png" alt="Sessão de Fonoaudiologia"
+                            class="w-full h-[500px] object-cover" />
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                     </div>
                 </div>
@@ -149,49 +185,65 @@
             <div class="text-center max-w-3xl mx-auto mb-20">
                 <h2 class="text-primary-500 font-bold tracking-widest uppercase text-xs mb-3">Nossas Especialidades</h2>
                 <h3 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Como podemos te ajudar?</h3>
-                <p class="text-lg text-slate-500 font-light">Terapias modernas e baseadas em evidências para desenvolver, reabilitar e aprimorar a sua comunicação em todas as fases da vida.</p>
+                <p class="text-lg text-slate-500 font-light">Terapias modernas e baseadas em evidências para
+                    desenvolver, reabilitar e aprimorar a sua comunicação em todas as fases da vida.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Card 1 -->
-                <div class="group bg-slate-50 rounded-[2rem] p-10 hover:bg-white hover:shadow-2xl hover:shadow-primary-100 transition-all duration-500 border border-slate-100 hover:-translate-y-2">
-                    <div class="w-20 h-20 rounded-2xl bg-white shadow-sm flex items-center justify-center text-4xl text-primary-500 mb-8 border border-slate-100 group-hover:bg-primary-500 group-hover:text-white transition-colors duration-500">
+                <div
+                    class="group bg-slate-50 rounded-[2rem] p-10 hover:bg-white hover:shadow-2xl hover:shadow-primary-100 transition-all duration-500 border border-slate-100 hover:-translate-y-2">
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-white shadow-sm flex items-center justify-center text-4xl text-primary-500 mb-8 border border-slate-100 group-hover:bg-primary-500 group-hover:text-white transition-colors duration-500">
                         <i class="ph-light ph-baby"></i>
                     </div>
                     <h4 class="text-2xl font-bold text-slate-900 mb-4">Linguagem Infantil</h4>
                     <p class="text-slate-500 mb-8 font-light leading-relaxed">
-                        Atrasos na fala, trocas de letras e estímulo ao desenvolvimento da comunicação infantil de maneira lúdica e acolhedora.
+                        Atrasos na fala, trocas de letras e estímulo ao desenvolvimento da comunicação infantil de
+                        maneira lúdica e acolhedora.
                     </p>
-                    <a href="#contato" class="inline-flex items-center text-primary-500 font-semibold group-hover:text-primary-600 transition-colors">
-                        Saber mais <i class="ph-bold ph-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    <a href="#contato"
+                        class="inline-flex items-center text-primary-500 font-semibold group-hover:text-primary-600 transition-colors">
+                        Saber mais <i
+                            class="ph-bold ph-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="group bg-slate-50 rounded-[2rem] p-10 hover:bg-white hover:shadow-2xl hover:shadow-primary-100 transition-all duration-500 border border-slate-100 hover:-translate-y-2">
-                    <div class="w-20 h-20 rounded-2xl bg-white shadow-sm flex items-center justify-center text-4xl text-sky-500 mb-8 border border-slate-100 group-hover:bg-sky-500 group-hover:text-white transition-colors duration-500">
+                <div
+                    class="group bg-slate-50 rounded-[2rem] p-10 hover:bg-white hover:shadow-2xl hover:shadow-primary-100 transition-all duration-500 border border-slate-100 hover:-translate-y-2">
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-white shadow-sm flex items-center justify-center text-4xl text-sky-500 mb-8 border border-slate-100 group-hover:bg-sky-500 group-hover:text-white transition-colors duration-500">
                         <i class="ph-light ph-microphone-stage"></i>
                     </div>
                     <h4 class="text-2xl font-bold text-slate-900 mb-4">Voz Profissional</h4>
                     <p class="text-slate-500 mb-8 font-light leading-relaxed">
-                        Preparação e reabilitação vocal para cantores, professores e palestrantes. Tratamento de rouquidão e fadiga vocal.
+                        Preparação e reabilitação vocal para cantores, professores e palestrantes. Tratamento de
+                        rouquidão e fadiga vocal.
                     </p>
-                    <a href="#contato" class="inline-flex items-center text-sky-500 font-semibold group-hover:text-sky-600 transition-colors">
-                        Saber mais <i class="ph-bold ph-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    <a href="#contato"
+                        class="inline-flex items-center text-sky-500 font-semibold group-hover:text-sky-600 transition-colors">
+                        Saber mais <i
+                            class="ph-bold ph-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="group bg-slate-50 rounded-[2rem] p-10 hover:bg-white hover:shadow-2xl hover:shadow-primary-100 transition-all duration-500 border border-slate-100 hover:-translate-y-2">
-                    <div class="w-20 h-20 rounded-2xl bg-white shadow-sm flex items-center justify-center text-4xl text-indigo-500 mb-8 border border-slate-100 group-hover:bg-indigo-500 group-hover:text-white transition-colors duration-500">
+                <div
+                    class="group bg-slate-50 rounded-[2rem] p-10 hover:bg-white hover:shadow-2xl hover:shadow-primary-100 transition-all duration-500 border border-slate-100 hover:-translate-y-2">
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-white shadow-sm flex items-center justify-center text-4xl text-indigo-500 mb-8 border border-slate-100 group-hover:bg-indigo-500 group-hover:text-white transition-colors duration-500">
                         <i class="ph-light ph-ear"></i>
                     </div>
                     <h4 class="text-2xl font-bold text-slate-900 mb-4">Reabilitação Auditiva</h4>
                     <p class="text-slate-500 mb-8 font-light leading-relaxed">
-                        Terapias intensivas para adaptação de aparelhos auditivos (AASI) e implantes, melhorando a compreensão e o processamento auditivo.
+                        Terapias intensivas para adaptação de aparelhos auditivos (AASI) e implantes, melhorando a
+                        compreensão e o processamento auditivo.
                     </p>
-                    <a href="#contato" class="inline-flex items-center text-indigo-500 font-semibold group-hover:text-indigo-600 transition-colors">
-                        Saber mais <i class="ph-bold ph-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    <a href="#contato"
+                        class="inline-flex items-center text-indigo-500 font-semibold group-hover:text-indigo-600 transition-colors">
+                        Saber mais <i
+                            class="ph-bold ph-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                 </div>
             </div>
@@ -207,35 +259,44 @@
                         <!-- Colored backdrop -->
                         <div class="absolute inset-0 bg-primary-100 rounded-[3rem] transform rotate-3"></div>
                         <!-- Picture -->
-                        <div class="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
+                        <div
+                            class="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white bg-white">
                             <img src="./assets/portrait.png" alt="A Fonoaudióloga" class="w-full h-full object-cover" />
                         </div>
                         <!-- Experience badge -->
-                        <div class="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl flex items-center gap-4">
+                        <div
+                            class="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl flex items-center gap-4">
                             <div class="text-4xl font-black text-primary-500">10+</div>
-                            <div class="text-sm text-slate-500 font-medium leading-tight">Anos de<br/>Experiência</div>
+                            <div class="text-sm text-slate-500 font-medium leading-tight">Anos de<br />Experiência</div>
                         </div>
                     </div>
                 </div>
 
                 <div class="w-full lg:w-1/2 lg:order-1">
                     <h2 class="text-primary-500 font-bold tracking-widest uppercase text-xs mb-3">Sobre Mim</h2>
-                    <h3 class="text-4xl md:text-5xl font-bold text-slate-900 mb-8 leading-tight">Empatia e ciência para dar voz à sua história.</h3>
-                    
+                    <h3 class="text-4xl md:text-5xl font-bold text-slate-900 mb-8 leading-tight">Empatia e ciência para
+                        dar voz à sua história.</h3>
+
                     <div class="space-y-6 text-slate-600 text-lg font-light leading-relaxed">
                         <p>
-                            Olá! Sou a <strong>Dra. Clara Albuquerque</strong>, fonoaudióloga apaixonada por devolver a escuta, a fluência e a conexão real entre as pessoas.
+                            Olá! Sou a <strong>Dra. Clara Albuquerque</strong>, fonoaudióloga apaixonada por devolver a
+                            escuta, a fluência e a conexão real entre as pessoas.
                         </p>
                         <p>
-                            Formada pelas melhores instituições e com mais de 10 anos de prática clínica, desenvolvi uma abordagem única que une evidências científicas de ponta a um acolhimento genuíno. Meu propósito é entender cada paciente como um indivíduo único.
+                            Formada pelas melhores instituições e com mais de 10 anos de prática clínica, desenvolvi uma
+                            abordagem única que une evidências científicas de ponta a um acolhimento genuíno. Meu
+                            propósito é entender cada paciente como um indivíduo único.
                         </p>
                         <p>
-                            Seja auxiliando uma criança a pronunciar suas primeiras palavras claras ou acompanhando um adulto na reabilitação auditiva, meu compromisso é fornecer o ambiente mais seguro e acolhedor possível para o seu progresso.
+                            Seja auxiliando uma criança a pronunciar suas primeiras palavras claras ou acompanhando um
+                            adulto na reabilitação auditiva, meu compromisso é fornecer o ambiente mais seguro e
+                            acolhedor possível para o seu progresso.
                         </p>
                     </div>
 
                     <div class="mt-10 flex gap-4">
-                        <a href="#contato" class="bg-slate-900 text-white px-8 py-3.5 rounded-full font-semibold hover:bg-slate-800 transition-colors">
+                        <a href="#contato"
+                            class="bg-slate-900 text-white px-8 py-3.5 rounded-full font-semibold hover:bg-slate-800 transition-colors">
                             Conhecer o consultório
                         </a>
                     </div>
@@ -254,17 +315,21 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Testimonial 1 -->
-                <div class="bg-white rounded-[2rem] p-10 shadow-[0_0_50px_rgba(0,0,0,0.05)] border border-slate-50 relative">
+                <div
+                    class="bg-white rounded-[2rem] p-10 shadow-[0_0_50px_rgba(0,0,0,0.05)] border border-slate-50 relative">
                     <i class="ph-fill ph-quotes text-5xl text-primary-50 absolute top-8 right-8 z-0"></i>
                     <div class="flex gap-1 text-amber-400 mb-6 relative z-10">
-                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
                     </div>
                     <p class="text-slate-600 mb-8 relative z-10 font-light leading-relaxed">
-                        "O cuidado com o meu filho foi excepcional. O ambiente é tão lúdico que ele nem sentia que estava em terapia. Em meses resolvemos a troca de letras que tanto o atrapalhava na escola."
+                        "O cuidado com o meu filho foi excepcional. O ambiente é tão lúdico que ele nem sentia que
+                        estava em terapia. Em meses resolvemos a troca de letras que tanto o atrapalhava na escola."
                     </p>
                     <div class="flex items-center gap-4 border-t border-slate-100 pt-6">
                         <div class="w-12 h-12 bg-slate-200 rounded-full overflow-hidden">
-                            <img src="https://i.pravatar.cc/150?img=47" alt="Paciente" class="w-full h-full object-cover"/>
+                            <img src="https://i.pravatar.cc/150?img=47" alt="Paciente"
+                                class="w-full h-full object-cover" />
                         </div>
                         <div>
                             <h5 class="font-bold text-slate-900">Mariana S.</h5>
@@ -274,17 +339,21 @@
                 </div>
 
                 <!-- Testimonial 2 (Highlighted) -->
-                <div class="bg-primary-500 text-white rounded-[2rem] p-10 shadow-2xl shadow-primary-500/30 relative transform md:-translate-y-4">
+                <div
+                    class="bg-primary-500 text-white rounded-[2rem] p-10 shadow-2xl shadow-primary-500/30 relative transform md:-translate-y-4">
                     <i class="ph-fill ph-quotes text-5xl text-primary-400 absolute top-8 right-8 z-0"></i>
                     <div class="flex gap-1 text-amber-300 mb-6 relative z-10">
-                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
                     </div>
                     <p class="text-white mb-8 relative z-10 font-light leading-relaxed text-lg">
-                        "Como professor universitário, lidar com a rouquidão era astenizante. O tratamento não só curou o problema como me ensinou técnicas para projetar a voz sem esforço."
+                        "Como professor universitário, lidar com a rouquidão era astenizante. O tratamento não só curou
+                        o problema como me ensinou técnicas para projetar a voz sem esforço."
                     </p>
                     <div class="flex items-center gap-4 border-t border-primary-400 pt-6">
                         <div class="w-12 h-12 bg-primary-400 rounded-full overflow-hidden border-2 border-white">
-                            <img src="https://i.pravatar.cc/150?img=11" alt="Paciente" class="w-full h-full object-cover"/>
+                            <img src="https://i.pravatar.cc/150?img=11" alt="Paciente"
+                                class="w-full h-full object-cover" />
                         </div>
                         <div>
                             <h5 class="font-bold text-white">Roberto F.</h5>
@@ -294,17 +363,21 @@
                 </div>
 
                 <!-- Testimonial 3 -->
-                <div class="bg-white rounded-[2rem] p-10 shadow-[0_0_50px_rgba(0,0,0,0.05)] border border-slate-50 relative">
+                <div
+                    class="bg-white rounded-[2rem] p-10 shadow-[0_0_50px_rgba(0,0,0,0.05)] border border-slate-50 relative">
                     <i class="ph-fill ph-quotes text-5xl text-primary-50 absolute top-8 right-8 z-0"></i>
                     <div class="flex gap-1 text-amber-400 mb-6 relative z-10">
-                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                            class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
                     </div>
                     <p class="text-slate-600 mb-8 relative z-10 font-light leading-relaxed">
-                        "O momento de adaptar os aparelhos auditivos era de muito medo para mim, mas a paciência e a metodologia da Dra. Clara me trouxeram confiança. Hoje curto a vida de novo."
+                        "O momento de adaptar os aparelhos auditivos era de muito medo para mim, mas a paciência e a
+                        metodologia da Dra. Clara me trouxeram confiança. Hoje curto a vida de novo."
                     </p>
                     <div class="flex items-center gap-4 border-t border-slate-100 pt-6">
                         <div class="w-12 h-12 bg-slate-200 rounded-full overflow-hidden">
-                            <img src="https://i.pravatar.cc/150?img=32" alt="Paciente" class="w-full h-full object-cover"/>
+                            <img src="https://i.pravatar.cc/150?img=32" alt="Paciente"
+                                class="w-full h-full object-cover" />
                         </div>
                         <div>
                             <h5 class="font-bold text-slate-900">Dona Elza C.</h5>
@@ -319,18 +392,22 @@
     <!-- Call to Action -->
     <section id="contato" class="py-24 relative overflow-hidden bg-slate-900 text-white rounded-t-[3rem]">
         <!-- Decorative subtle pattern -->
-        <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(#ffffff 2px, transparent 2px); background-size: 40px 40px;"></div>
-        
+        <div class="absolute inset-0 opacity-5"
+            style="background-image: radial-gradient(#ffffff 2px, transparent 2px); background-size: 40px 40px;"></div>
+
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-md mb-8">
+            <div
+                class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-md mb-8">
                 <i class="ph-fill ph-calendar-plus text-3xl text-primary-400"></i>
             </div>
             <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">Agende sua avaliação</h2>
             <p class="text-xl text-slate-300 mb-10 max-w-2xl mx-auto font-light">
-                Dê o primeiro passo para transformar sua comunicação. Nossa equipe está pronta para receber você com todo o conforto.
+                Dê o primeiro passo para transformar sua comunicação. Nossa equipe está pronta para receber você com
+                todo o conforto.
             </p>
             <div class="flex flex-col sm:flex-row gap-5 justify-center">
-                <a href="#" class="bg-primary-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-primary-400 hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary-500/40 transition-all duration-300 flex items-center justify-center gap-2">
+                <a href="#"
+                    class="bg-primary-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-primary-400 hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary-500/40 transition-all duration-300 flex items-center justify-center gap-2">
                     <i class="ph-fill ph-whatsapp text-2xl"></i>
                     Agendar pelo WhatsApp
                 </a>
@@ -345,22 +422,27 @@
                 <!-- Brand -->
                 <div class="col-span-1 md:col-span-2 lg:col-span-1">
                     <div class="flex items-center gap-2 mb-6">
-                        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-white">
+                        <div
+                            class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-white">
                             <i class="ph ph-waves font-bold"></i>
                         </div>
-                        <span class="font-bold text-2xl text-white tracking-tight">Fono<span class="text-primary-500">Clínica</span></span>
+                        <span class="font-bold text-2xl text-white tracking-tight">Fono<span
+                                class="text-primary-500">Clínica</span></span>
                     </div>
                     <p class="text-slate-400 mb-6 font-light leading-relaxed">
                         Cuidado de excelência em um espaço desenhado para o seu conforto.
                     </p>
                     <div class="flex gap-3">
-                        <a href="#" class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-primary-500 hover:border-primary-500 hover:text-white transition-all duration-300">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-primary-500 hover:border-primary-500 hover:text-white transition-all duration-300">
                             <i class="ph-fill ph-instagram-logo text-lg"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-primary-500 hover:border-primary-500 hover:text-white transition-all duration-300">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-primary-500 hover:border-primary-500 hover:text-white transition-all duration-300">
                             <i class="ph-fill ph-facebook-logo text-lg"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-primary-500 hover:border-primary-500 hover:text-white transition-all duration-300">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-primary-500 hover:border-primary-500 hover:text-white transition-all duration-300">
                             <i class="ph-fill ph-tiktok-logo text-lg"></i>
                         </a>
                     </div>
@@ -370,10 +452,18 @@
                 <div>
                     <h4 class="text-white font-semibold tracking-wide mb-6">Navegação</h4>
                     <ul class="space-y-3">
-                        <li><a href="#inicio" class="text-slate-400 hover:text-primary-400 transition-colors font-light">Início</a></li>
-                        <li><a href="#servicos" class="text-slate-400 hover:text-primary-400 transition-colors font-light">Especialidades</a></li>
-                        <li><a href="#sobre" class="text-slate-400 hover:text-primary-400 transition-colors font-light">A Profissional</a></li>
-                        <li><a href="#depoimentos" class="text-slate-400 hover:text-primary-400 transition-colors font-light">Depoimentos</a></li>
+                        <li><a href="#inicio"
+                                class="text-slate-400 hover:text-primary-400 transition-colors font-light">Início</a>
+                        </li>
+                        <li><a href="#servicos"
+                                class="text-slate-400 hover:text-primary-400 transition-colors font-light">Especialidades</a>
+                        </li>
+                        <li><a href="#sobre"
+                                class="text-slate-400 hover:text-primary-400 transition-colors font-light">A
+                                Profissional</a></li>
+                        <li><a href="#depoimentos"
+                                class="text-slate-400 hover:text-primary-400 transition-colors font-light">Depoimentos</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -381,10 +471,17 @@
                 <div>
                     <h4 class="text-white font-semibold tracking-wide mb-6">Serviços</h4>
                     <ul class="space-y-3">
-                        <li><a href="#" class="text-slate-400 hover:text-primary-400 transition-colors font-light">Linguagem Infantil</a></li>
-                        <li><a href="#" class="text-slate-400 hover:text-primary-400 transition-colors font-light">Voz Profissional</a></li>
-                        <li><a href="#" class="text-slate-400 hover:text-primary-400 transition-colors font-light">Reabilitação Auditiva</a></li>
-                        <li><a href="#" class="text-slate-400 hover:text-primary-400 transition-colors font-light">Testes e Exames</a></li>
+                        <li><a href="#"
+                                class="text-slate-400 hover:text-primary-400 transition-colors font-light">Linguagem
+                                Infantil</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-primary-400 transition-colors font-light">Voz
+                                Profissional</a></li>
+                        <li><a href="#"
+                                class="text-slate-400 hover:text-primary-400 transition-colors font-light">Reabilitação
+                                Auditiva</a></li>
+                        <li><a href="#"
+                                class="text-slate-400 hover:text-primary-400 transition-colors font-light">Testes e
+                                Exames</a></li>
                     </ul>
                 </div>
 
@@ -394,7 +491,8 @@
                     <ul class="space-y-4">
                         <li class="flex items-start gap-3">
                             <i class="ph-fill ph-map-pin text-primary-500 mt-1"></i>
-                            <span class="text-slate-400 font-light leading-snug">Av. Paulista, 1000 - Conj 105<br/>Bela Vista, São Paulo - SP</span>
+                            <span class="text-slate-400 font-light leading-snug">Av. Paulista, 1000 - Conj 105<br />Bela
+                                Vista, São Paulo - SP</span>
                         </li>
                         <li class="flex items-center gap-3">
                             <i class="ph-fill ph-phone text-primary-500"></i>
@@ -421,4 +519,5 @@
     </footer>
 
 </body>
+
 </html>
